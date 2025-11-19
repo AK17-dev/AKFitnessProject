@@ -1,0 +1,58 @@
+name: fitness_exercise_app
+description: A simple single-page Flutter app for fitness exercises with a modern UI design.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Material Design icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Linting rules for better code quality
+  flutter_lints: ^2.0.0
+
+flutter:
+  # Enable Material Design
+  uses-material-design: true
+
+  # Assets configuration
+  # Uncomment and add your local image assets here if you want to use local images
+  # instead of network images (NetworkImage)
+  # 
+  # Example structure:
+  # assets/
+  #   images/
+  #     pushups.jpg
+  #     squats.jpg
+  #     plank.jpg
+  #     jumping_jacks.jpg
+  #     situps.jpg
+  #
+  # assets:
+  #   - assets/images/pushups.jpg
+  #   - assets/images/squats.jpg
+  #   - assets/images/plank.jpg
+  #   - assets/images/jumping_jacks.jpg
+  #   - assets/images/situps.jpg
+  #
+  # Or include all images in a folder:
+  # assets:
+  #   - assets/images/
+
+  # Font configuration (optional)
+  # You can add custom fonts here for a more unique design
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
